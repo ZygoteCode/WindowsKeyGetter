@@ -5,7 +5,7 @@ public class Program
 {
     public static void Main()
     {
-        Console.Title = "WindowsKeyGetter | Made by https://github.com/GabryB03/";
+        Console.Title = "WindowsKeyGetter | Made by https://github.com/ZygoteCode/";
 
         if (!new WindowsPrincipal(WindowsIdentity.GetCurrent()).IsInRole(WindowsBuiltInRole.Administrator))
         {
